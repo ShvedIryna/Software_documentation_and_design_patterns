@@ -15,8 +15,8 @@ def main():
         report = manager.process_data("financial_data.csv")
 
         chart = ChartGenerator()
-        chart.generate_income_chart()
-        chart.generate_expense_chart()
+        chart.generateIncomeChart()
+        chart.generateExpenseChart()
 
         print("\n" + "="*30)
         print(" FINANCIAL REPORT SUMMARY ")

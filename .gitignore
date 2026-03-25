@@ -1,0 +1,6 @@
+serviceAccountKey.json
+nypd_data.csv
+__pycache__/
+*.pyc
+venv/
+.DS_Store
